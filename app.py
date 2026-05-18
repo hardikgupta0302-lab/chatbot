@@ -75,7 +75,7 @@ with st.sidebar:
   
     
     
-        api_key = api_key_input
+        OpenAI.api_key = api_key_input
         st.success("✅ API Key configured!")
     else:
         st.warning("⚠️ No API Key provided. Please enter your OpenAI API key.")
