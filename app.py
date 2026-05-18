@@ -9,7 +9,7 @@ import json
 
 
 # Configure OpenAI
-openai.api_key = os.getenv('OPENAI_API_KEY')
+api_key = os.getenv('OPENAI_API_KEY')
 
 # Page configuration
 st.set_page_config(
