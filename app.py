@@ -74,8 +74,8 @@ with st.sidebar:
     st.subheader("🔑 API Configuration")
   
     
-    if api_key_input:
-        openai.api_key = api_key_input
+    
+        api_key = api_key_input
         st.success("✅ API Key configured!")
     else:
         st.warning("⚠️ No API Key provided. Please enter your OpenAI API key.")
