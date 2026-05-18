@@ -9,7 +9,7 @@ st.write('AI-powered responses for health queries.')
 # Chat function
 def chat_with_buddybot(user_input):
     # Here you would integrate your AI model or logic
-t    # For demonstration, we will return a static response.
+    # For demonstration, we will return a static response.
     return "BuddyBot: How can I assist you with your health today?"
 
 # User input
