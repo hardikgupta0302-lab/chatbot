@@ -72,7 +72,7 @@ with st.sidebar:
     
     # API Key Input
     st.subheader("🔑 API Configuration")
-    api_key_input = st.text_input("Enter OpenAI API Key", type="password", value=openai.api_key or "")
+    api_key_input = st.text_input("Enter  API Key", type="password", value=openai.api_key or "")
     
     if api_key_input:
         openai.api_key = api_key_input
