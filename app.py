@@ -1,5 +1,5 @@
 import streamlit as st
-import openai
+
 import os
 from datetime import datetime
 from dotenv import load_dotenv
