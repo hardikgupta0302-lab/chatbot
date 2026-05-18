@@ -6,7 +6,7 @@ from datetime import datetime
 import json
 
 # Load environment variables
-load_dotenv()
+
 
 # Configure OpenAI
 openai.api_key = os.getenv('OPENAI_API_KEY')
